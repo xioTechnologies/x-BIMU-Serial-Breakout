@@ -4575,7 +4575,7 @@ chip</description>
 <smd name="20" x="-12.5" y="8" dx="0.85" dy="2.1" layer="1" rot="R90"/>
 <text x="-1.27" y="1.905" size="1.27" layer="51">X</text>
 <text x="-1.27" y="-1.27" size="1.27" layer="51">Z</text>
-<text x="1.905" y="-1.27" size="1.27" layer="51">y</text>
+<text x="1.905" y="-1.27" size="1.27" layer="51">Y</text>
 </package>
 <package name="OSHW_LOGO_6MM_BOTTOM">
 <rectangle x1="1.1402" y1="-0.0051" x2="1.1909" y2="0.0051" layer="122"/>

@@ -1278,7 +1278,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <smd name="20" x="-12.5" y="8" dx="0.85" dy="2.1" layer="1" rot="R90"/>
 <text x="-1.27" y="1.905" size="1.27" layer="51">X</text>
 <text x="-1.27" y="-1.27" size="1.27" layer="51">Z</text>
-<text x="1.905" y="-1.27" size="1.27" layer="51">y</text>
+<text x="1.905" y="-1.27" size="1.27" layer="51">Y</text>
 </package>
 </packages>
 <symbols>
@@ -1319,9 +1319,9 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pin name="N/C@6" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="RTS" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="N/C@7" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="N/C@8" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="N/C@9" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="N/C@10" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="RB13" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="RA1" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="RB15" x="17.78" y="10.16" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1356,15 +1356,15 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <connect gate="G$1" pin="MCLR" pad="14"/>
 <connect gate="G$1" pin="N/C" pad="4"/>
 <connect gate="G$1" pin="N/C@1" pad="6"/>
-<connect gate="G$1" pin="N/C@10" pad="20"/>
 <connect gate="G$1" pin="N/C@2" pad="7"/>
 <connect gate="G$1" pin="N/C@3" pad="8"/>
 <connect gate="G$1" pin="N/C@4" pad="11"/>
 <connect gate="G$1" pin="N/C@5" pad="13"/>
 <connect gate="G$1" pin="N/C@6" pad="15"/>
 <connect gate="G$1" pin="N/C@7" pad="17"/>
-<connect gate="G$1" pin="N/C@8" pad="18"/>
-<connect gate="G$1" pin="N/C@9" pad="19"/>
+<connect gate="G$1" pin="RA1" pad="19"/>
+<connect gate="G$1" pin="RB13" pad="18"/>
+<connect gate="G$1" pin="RB15" pad="20"/>
 <connect gate="G$1" pin="RESET" pad="5"/>
 <connect gate="G$1" pin="RTS" pad="16"/>
 <connect gate="G$1" pin="RX" pad="2"/>
